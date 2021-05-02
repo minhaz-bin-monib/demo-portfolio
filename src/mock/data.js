@@ -10,48 +10,48 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Minhaz',
+  subtitle: 'A JS Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'minhaz.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1dDMluX1e-xGsPf-eivdfDHW_fx0h31sb/view?fbclid=IwAR366x3m47hwiGB2tsyKKDYHQpZeCNrbaxJNNpKyXi7VvWf4uYzhLhfzujQ', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'baby.PNG',
+    title: 'Super Child Care',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://super-child-care.web.app/',
+    repo: 'https://github.com/minhaz-bin-monib/super-child-care', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'local.PNG',
+    title: 'Local Rides',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://local-rides-6d3a3.web.app/home',
+    repo: 'https://github.com/minhaz-bin-monib/local-rides', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'bangla.PNG',
+    title: 'Bangla Book Shop',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://bangla-book-shop.web.app/',
+    repo: 'https://github.com/minhaz-bin-monib/bangla-book-shop', // if no repo, the button will not show up
   },
 ];
 
